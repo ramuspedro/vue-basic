@@ -4,7 +4,12 @@ new Vue({
   },
   data() {
     return {
-      name: 'Vue App'
+      name: 'Vue App',
+      btnState: true,
+      skills: [
+        {"skill": 'Front-end Developer'},
+        {"skill": 'VueJS'},
+      ]
     }
   }
 });
